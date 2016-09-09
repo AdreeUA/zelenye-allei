@@ -456,6 +456,20 @@ img {
   background: green;
 }
 
+.map {
+  background-image: url(../img//general/map.png);
+  height: 1259px;
+  width: 1316px;
+  background-color: #EBE8DA;
+  margin: 0 auto;
+}
+
+.map-tree {
+  position: relative;
+  height: 23px;
+  width: 23px;
+}
+
 /* Plugins, which is used in current project. */
 /* Components, which is used in current project. */
 .header__block {
@@ -602,6 +616,60 @@ img {
   min-height: 65px;
   width: 100%;
   background: #363537;
+}
+
+.icons_maple {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: 0px -27px;
+  width: 23px;
+  height: 23px;
+  background-size: 77px, 77px;
+  background-repeat: no-repeat;
+}
+
+.icons_thuja {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: 0px -54px;
+  width: 23px;
+  height: 23px;
+  background-size: 77px, 77px;
+  background-repeat: no-repeat;
+}
+
+.icons_chestnut {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: 0px 0px;
+  width: 23px;
+  height: 23px;
+  background-size: 77px, 77px;
+  background-repeat: no-repeat;
+}
+
+.icons_rowan {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: -27px -27px;
+  width: 23px;
+  height: 23px;
+  background-size: 77px, 77px;
+  background-repeat: no-repeat;
+}
+
+.icons_sugar {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: -54px -27px;
+  width: 23px;
+  height: 23px;
+  background-size: 77px, 77px;
+  background-repeat: no-repeat;
+}
+
+.icons_linden {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: -27px 0px;
+  width: 23px;
+  height: 23px;
+  background-size: 77px, 77px;
+  background-repeat: no-repeat;
 }
 
 /* Additional style files. */

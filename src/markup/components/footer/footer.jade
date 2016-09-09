@@ -44,6 +44,15 @@ mixin footer(data)
                                     +e.text-required *все поля формы обязательные к заполнению
 
                 +e.bottom
-
                     .container
+                        +e.bottom-wrap
+                            +e.bottom-block
+                                span © 2016 Группа компаний «МИЦ»
+
+                            +e.bottom-block
+                                +e.A.bottom-link(href="#") Условия акции
+
+                            +e.bottom-block
+                                span Вопросы по акции:
+                                +e.A.link-tel(href="tel:+7495795-04-04") +7 (495) 795-04-04
 

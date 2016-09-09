@@ -9,4 +9,15 @@ mixin header(data)
                             +e.logo
                                 img(src="static/img/content/main-logo.png")
                             +e.logo_bg-red
+                                img(src="static/img/content/mic-logo.jpg")
+
+                        +e.block-right
+                            +e.socials
+                                +e.A.soc-link(href="#") vkontakte
+                                +e.A.soc-link(href="#") facebook
+                                +e.A.soc-link(href="#") twitter
+
+                            +e.tel
+                                +e.DIV.tel-text Вопросы по акции:
+                                +e.A.tel-link(href="tel:+7495795-04-04") +7 (495) 795-04-04
 

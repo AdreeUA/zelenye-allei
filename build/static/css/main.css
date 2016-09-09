@@ -465,11 +465,14 @@ img {
   background: green;
 }
 
+.map-wrapper {
+  background-color: #EBE8DA;
+}
+
 .map {
   background-image: url(../img//general/map.png);
   height: 1259px;
   width: 1316px;
-  background-color: #EBE8DA;
   margin: 0 auto;
   position: relative;
 }

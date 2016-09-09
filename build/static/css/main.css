@@ -451,6 +451,15 @@ img {
   margin: 0 auto;
 }
 
+.container:after {
+  display: table;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
 .some {
   height: 400px;
   background: green;
@@ -479,6 +488,28 @@ img {
 
 .header__top {
   background: rgba(255, 255, 255, 0.7);
+}
+
+.header__logo-block {
+  font-size: 0;
+  float: left;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header__block-right {
+  float: right;
+}
+
+.header__socials {
+  display: inline-block;
+}
+
+.header__tel {
+  display: inline-block;
 }
 
 .footer__block {
@@ -616,6 +647,34 @@ img {
   min-height: 65px;
   width: 100%;
   background: #363537;
+}
+
+.footer__bottom-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  min-height: 65px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__bottom-block {
+  font-family: "Helios Cond C", Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer__bottom-block a {
+  color: #fff;
+}
+
+.footer__link-tel {
+  text-decoration: none;
 }
 
 .icons_maple {

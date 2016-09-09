@@ -3,25 +3,44 @@
     &_maple {
         @include bg($maple);
     }
+    &_maple_grey {
+        @include bg($maple_grey);
+    }
+
 
     &_thuja {
         @include bg($thuja);
+    }
+    &_thuja_grey {
+        @include bg($thuja_grey);
     }
 
     &_chestnut {
         @include bg($chestnut);
     }
+    &_chestnut_grey {
+        @include bg($chestnut_grey);
+    }
 
     &_rowan {
         @include bg($rowan);
+    }
+    &_rowan_grey {
+        @include bg($rowan_grey);
     }
 
     &_sugar {
         @include bg($sugar);
     }
+    &_sugar_grey {
+        @include bg($sugar_grey);
+    }
 
     &_linden {
         @include bg($linden);
+    }
+    &_linden_grey {
+        @include bg($linden_grey);
     }
 
 }

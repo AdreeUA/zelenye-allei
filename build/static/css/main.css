@@ -488,6 +488,55 @@ img {
   position: absolute;
 }
 
+.map-popup {
+  display: none;
+  width: 203px;
+  height: 134px;
+  background-color: #fff;
+  border: 1px solid #e8e4da;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: -144px 0 0 -91px;
+  text-align: center;
+  left: 0;
+  position: absolute;
+  padding: 10px 0;
+  top: 0;
+}
+
+.map-popup:before {
+  border-top: 10px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  top: 100%;
+}
+
+.map-popup__header {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.map-popup__text {
+  font-size: 16px;
+}
+
+.map-popup__btn {
+  margin: 10px 0;
+  display: inline-block;
+  cursor: pointer;
+  width: 123px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #e8e4da;
+  border-radius: 5px;
+}
+
 /* Plugins, which is used in current project. */
 /* Components, which is used in current project. */
 .header__block {

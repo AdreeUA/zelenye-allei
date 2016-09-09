@@ -1,36 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f31022e4-62cb-4022-a0bb-20352e7425ae" name="Default" comment="tars">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-bold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-bold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-bold-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-bolditalic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-bolditalic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-bolditalic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-bolditalic-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-italic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-italic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-italic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-italic-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/fonts/helioscondc-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/img/content/bg-footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/img/content/bg-header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/img/content/main-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/humans.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/css/main.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/css/separate-css/separate-css-sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/static/js/main.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/markup/components/footer/footer.jade" afterPath="$PROJECT_DIR$/src/markup/components/footer/footer.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/markup/components/footer/footer.scss" afterPath="$PROJECT_DIR$/src/markup/components/footer/footer.scss" />
+    <list default="true" id="f31022e4-62cb-4022-a0bb-20352e7425ae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="zelenye-allei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,28 +24,7 @@
     <favorites_list name="zelenye-allei" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="footer.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/markup/components/footer/footer.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="20" column="119" selection-start-line="20" selection-start-column="119" selection-end-line="20" selection-end-column="119" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/markup/components/footer/footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -687,7 +638,7 @@
       <option name="presentableId" value="Default" />
       <updated>1473399970627</updated>
       <workItem from="1473399972242" duration="2050000" />
-      <workItem from="1473424063853" duration="1940000" />
+      <workItem from="1473424063853" duration="2027000" />
     </task>
     <task id="LOCAL-00001" summary="tars">
       <created>1473400287287</created>
@@ -696,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473400287287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="мелочи по форме">
+      <created>1473426851742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473426851742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3990000" />
+    <option name="totallyTimeSpent" value="4077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -747,25 +705,26 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="tars" />
-    <option name="LAST_COMMIT_MESSAGE" value="tars" />
+    <MESSAGE value="мелочи по форме" />
+    <option name="LAST_COMMIT_MESSAGE" value="мелочи по форме" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/markup/components/footer/footer.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="119" selection-start-line="20" selection-start-column="119" selection-end-line="20" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/markup/components/footer/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/markup/components/footer/footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="119" selection-start-line="20" selection-start-column="119" selection-end-line="20" selection-end-column="119" />
           <folding />
         </state>
       </provider>

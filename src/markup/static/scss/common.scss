@@ -43,6 +43,7 @@ img {
     width: 1316px;
     background-color: #EBE8DA;
     margin:0 auto;
+    position: relative;
 }
 
 .map-tree {
@@ -50,4 +51,9 @@ img {
     position:relative;
     height: 23px;
     width: 23px;
+
+    &_absolute {
+        position: absolute;
+    }
 }
+

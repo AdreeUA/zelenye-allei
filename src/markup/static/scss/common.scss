@@ -15,7 +15,7 @@ body {
 }
 
 img {
-    max-height: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -28,6 +28,7 @@ img {
     min-width: 1000px;
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 10px;
 
     @include clearfix;
 }
@@ -140,6 +141,12 @@ img {
 
 }
 
+.trees-list-wrap {
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 0 10px 4px rgba(0,0,0,.1);
+}
+
 .trees-list {
     padding: 35px 0 23px 160px;
     ul {
@@ -163,6 +170,55 @@ img {
             position: absolute;
             left: 0;
             top: 3px;
+        }
+    }
+}
+
+.trees-photo-wrap {
+    position: relative;
+    z-index: 50;
+    background-color: #f7f7f7;
+}
+
+.trees-photo {
+    padding: 35px 0 23px 160px;
+    font-size: 0;
+
+    &__item {
+        display: inline-block;
+        vertical-align: top;
+        max-width: 194px;
+        border-radius: 5px;
+        margin-right: 31px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 3px 1px rgba(0,0,0,.1);
+    }
+
+    &__img-wrap {
+        width: 194px;
+        height: 180px;
+    }
+
+    &__title {
+        padding: 28px 30px;
+        font-family: $main-font;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        background: #fff;
+
+        &_long {
+            padding: 28px 20px;
+        }
+
+        &_rowan {
+            padding: 18px 30px;
+            span {
+                font-size: 16px;
+                font-weight: 400;
+                text-transform: lowercase;
+            }
         }
     }
 }

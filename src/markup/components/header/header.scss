@@ -1,3 +1,16 @@
 .header {
 
+
+    &__block {
+        min-height: 795px;
+        background: url(%=static=%/content/bg-header.jpg);
+    }
+
+    &__top {
+        background: rgba(255, 255, 255, .7);
+    }
+
+
 }
+
+

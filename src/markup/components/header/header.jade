@@ -1,3 +1,12 @@
-mixin header(data) 
-    +b.header()&attributes(attributes) 
+mixin header(data)
+    +b.header()&attributes(attributes)
         block
+        .wrapper
+            +e.block
+                +e.top
+                    .container
+                        +e.logo-block
+                            +e.logo
+                                img(src="static/img/content/main-logo.png")
+                            +e.logo_bg-red
+

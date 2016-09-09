@@ -46,6 +46,9 @@ $map.mouseleave(function(e) {
 
 $mapBtn.click(function() {
     $placeInput.val(num);
+    $('html, body').animate({
+        scrollTop: 9999
+    }, 1000);
 });
 
 

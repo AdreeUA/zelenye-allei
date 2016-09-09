@@ -489,6 +489,7 @@ img {
 }
 
 .map-popup {
+  font-family: "Helios Cond C", Arial, sans-serif;
   display: none;
   width: 203px;
   height: 134px;
@@ -560,6 +561,7 @@ img {
 
 .header__block-right {
   float: right;
+  padding-top: 15px;
 }
 
 .header__socials {
@@ -568,6 +570,95 @@ img {
 
 .header__tel {
   display: inline-block;
+  color: #3e3236;
+  font-family: "Helios Cond C", Arial, sans-serif;
+  text-align: right;
+}
+
+.header__tel-text {
+  font-size: 16px;
+}
+
+.header__tel-link {
+  color: #3e3236;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header__steps-wrap {
+  width: 520px;
+  float: right;
+}
+
+.header__steps-title {
+  position: relative;
+  z-index: 20;
+  font-family: "Helios Cond C", Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
+.header__steps-title-part1 {
+  padding-left: 40px;
+  font-size: 89px;
+}
+
+.header__steps-title-part2 {
+  font-size: 72px;
+  text-align: right;
+}
+
+.header__steps-content {
+  position: relative;
+  top: -34px;
+  z-index: 10;
+  padding: 56px 0 35px 47px;
+  margin-left: 47px;
+  background: rgba(41, 45, 32, 0.5);
+  border-radius: 5px;
+}
+
+.header__steps-img-wrap {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header__steps-text-wrap {
+  display: inline-block;
+}
+
+.header__steps-block {
+  margin-bottom: 25px;
+  font-family: "Helios Cond C", Arial, sans-serif;
+  color: #fff;
+}
+
+.header__steps-block-title {
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.header__steps-block-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.header__steps-btn {
+  padding-left: 55px;
+}
+
+.header__steps-link {
+  display: inline-block;
+}
+
+.header__steps-link-img {
+  display: block;
+  border-radius: 5px;
 }
 
 .footer__block {
@@ -737,55 +828,100 @@ img {
 
 .icons_maple {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
-  background-position: 0px -27px;
+  background-position: -61px 0px;
   width: 23px;
   height: 23px;
-  background-size: 77px, 77px;
+  background-size: 111px, 107px;
   background-repeat: no-repeat;
 }
 
 .icons_thuja {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
-  background-position: 0px -54px;
+  background-position: -88px -54px;
   width: 23px;
   height: 23px;
-  background-size: 77px, 77px;
+  background-size: 111px, 107px;
+  background-repeat: no-repeat;
+}
+
+.icons_thujagrey {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: -30px 0px;
+  width: 27px;
+  height: 24px;
+  background-size: 111px, 107px;
   background-repeat: no-repeat;
 }
 
 .icons_chestnut {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
-  background-position: 0px 0px;
+  background-position: -88px -27px;
   width: 23px;
   height: 23px;
-  background-size: 77px, 77px;
+  background-size: 111px, 107px;
+  background-repeat: no-repeat;
+}
+
+.icons_chestnutgrey {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: 0px -57px;
+  width: 23px;
+  height: 23px;
+  background-size: 111px, 107px;
   background-repeat: no-repeat;
 }
 
 .icons_rowan {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
-  background-position: -27px -27px;
+  background-position: -61px -27px;
   width: 23px;
   height: 23px;
-  background-size: 77px, 77px;
+  background-size: 111px, 107px;
+  background-repeat: no-repeat;
+}
+
+.icons_rowangrey {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: 0px -84px;
+  width: 23px;
+  height: 23px;
+  background-size: 111px, 107px;
   background-repeat: no-repeat;
 }
 
 .icons_sugar {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
-  background-position: -54px -27px;
+  background-position: -88px 0px;
   width: 23px;
   height: 23px;
-  background-size: 77px, 77px;
+  background-size: 111px, 107px;
+  background-repeat: no-repeat;
+}
+
+.icons_sugargrey {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: 0px 0px;
+  width: 26px;
+  height: 26px;
+  background-size: 111px, 107px;
   background-repeat: no-repeat;
 }
 
 .icons_linden {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
-  background-position: -27px 0px;
+  background-position: 0px -30px;
   width: 23px;
   height: 23px;
-  background-size: 77px, 77px;
+  background-size: 111px, 107px;
+  background-repeat: no-repeat;
+}
+
+.icons_lindengrey {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: -27px -30px;
+  width: 23px;
+  height: 23px;
+  background-size: 111px, 107px;
   background-repeat: no-repeat;
 }
 

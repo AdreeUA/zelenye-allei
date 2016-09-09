@@ -44,6 +44,7 @@
         min-height: 65px;
 
         input {
+            padding: 0 10px;
             height: 36px;
             width: 100%;
             font-size: 18px;
@@ -58,7 +59,7 @@
             width: 330px;
         }
         &_corpus {
-            width: 115px;
+            width: 113px;
         }
         &_place-number {
             width: 272px;
@@ -83,10 +84,16 @@
     &__radio-wrap {
         border: 1px solid #fff;
         border-radius: 5px;
+        overflow: hidden;
+
+        input[type="radio"]:checked + .footer__radio-label {
+            background: rgba(0,0,0,.4);
+        }
     }
 
     &__radio-label {
-        display: inline-block;
+        cursor: pointer;
+        float: left;
         margin-bottom: 0;
         padding: 6px 13px;
         font-size: 18px;

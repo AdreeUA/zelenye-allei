@@ -12,29 +12,29 @@ mixin footer(data)
                                 +e.form-line
                                     +e.input-block_name
                                         +e.LABEL.label(for="name") Фамилия Имя Отчество
-                                        input(type="text" id="name" name="name")
+                                        input(type="text" id="name" name="name" required)
 
                                     +e.input-block_corpus
                                         +e.LABEL.label Корпус
 
                                         +e.DIV.radio-wrap
-                                            input(type="radio" id="corpus1" name="corpus" value="corpus1")
+                                            input(type="radio" id="corpus1" name="corpus" value="corpus1" required checked)
                                             +e.LABEL.radio-label(for="corpus1") 1
 
-                                            input(type="radio" id="corpus2" name="corpus" value="corpus2")
+                                            input(type="radio" id="corpus2" name="corpus" value="corpus2" required)
                                             +e.LABEL.radio-label(for="corpus2") 2
 
-                                            input(type="radio" id="corpus4" name="corpus" value="corpus3")
+                                            input(type="radio" id="corpus4" name="corpus" value="corpus3" required)
                                             +e.LABEL.radio-label(for="corpus4") 4
 
                                 +e.form-line
                                     +e.input-block_place-number
                                         +e.LABEL.label(for="place-number") Номер посадочного места
-                                        input(type="text" id="place-number" name="place-number")
+                                        input(type="text" id="place-number" name="place-number" required)
 
                                     +e.input-block_tel
                                         +e.LABEL.label(for="tel") Телефон
-                                        input(type="tel" id="tel" name="tel")
+                                        input(type="tel" id="tel" name="tel" required)
 
                                 +e.form-line
                                     +e.btn-wrap

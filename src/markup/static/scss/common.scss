@@ -32,16 +32,22 @@ img {
     @include clearfix;
 }
 
-.some {
-    height: 400px;
-    background: green;
-}
-
-.map-wrapper { background-color: #EBE8DA; }
+.map-wrapper {
+    background-color: #EBE8DA;
+    overflow:hidden;
+     }
 
 .map {
     background-image: url(%=static=%/general/map.png);
     height: 1259px;
+    width: 1316px;
+    margin:0 auto;
+    position: relative;
+}
+
+.map2 {
+    background-image: url(%=static=%/general/map2.png);
+    height: 934px;
     width: 1316px;
     margin:0 auto;
     position: relative;

@@ -474,6 +474,7 @@ img {
 }
 
 .map-tree {
+  cursor: pointer;
   position: relative;
   height: 23px;
   width: 23px;

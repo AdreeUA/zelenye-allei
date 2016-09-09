@@ -125,4 +125,26 @@
         background: #363537;
     }
 
+    &__bottom-wrap {
+        display: flex;
+        max-width: 100%;
+        min-height: 65px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__bottom-block {
+        font-family: $main-font;
+        font-size: 16px;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    &__link-tel {
+        text-decoration: none;
+    }
+
 }

@@ -7,6 +7,7 @@ dev
 .tmpTemplater
 .tmpPreproc
 
+../.idea
 .idea
 npm-debug.log
 phantomjsdriver.log

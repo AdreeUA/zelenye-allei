@@ -1,7 +1,25 @@
 .header {
     &__block {
         min-height: 795px;
-        background: url(%=static=%/content/bg-header.jpg);
+        background: url(%=static=%/content/bg-header.jpg) no-repeat;
+
+        @include below(1229px) {
+            background-position: -400px 0;
+        }
+
+        @include above(1230px) {
+            background-position: -300px 0;
+        }
+        @include above(1300px) {
+            background-position: -250px 0;
+        }
+        @include above(1400px) {
+            background-position: -200px 0;
+        }
+        @include above(1780px) {
+            background-position: initial;
+        }
+
     }
     &__top {
         background: rgba(255, 255, 255, .7);
@@ -42,6 +60,7 @@
     &__steps-wrap {
         width: 520px;
         float: right;
+        padding-top: 57px;
     }
 
     &__steps-title {
@@ -68,7 +87,7 @@
         top: -34px;
         z-index: 10;
 
-        padding: 56px 0 35px 47px;
+        padding: 56px 0 35px 37px;
         margin-left: 47px;
         background: rgba(41, 45, 32, .5%);
         border-radius: 5px;
@@ -79,9 +98,10 @@
     }
     &__steps-text-wrap {
         display: inline-block;
+        vertical-align: top;
     }
     &__steps-block {
-        margin-bottom: 25px;
+        margin-bottom: 32px;
         font-family: $main-font;
         color: #fff;
     }
@@ -98,7 +118,7 @@
         line-height: 18px;
     }
     &__steps-btn {
-        padding-left: 55px;
+        padding-left: 43px;
     }
     &__steps-link {
         display: inline-block;

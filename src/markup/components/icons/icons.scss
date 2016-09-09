@@ -40,4 +40,11 @@
         @include bg($lindengrey);
     }
 
+    &_spruce {
+        @include bg($spruce);
+    }
+    &_sprucegrey {
+        @include bg($sprucegrey);
+    }
+
 }

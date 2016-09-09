@@ -35,18 +35,30 @@ img {
 .some {
     height: 400px;
     background: green;
- }
+}
+
+.map-wrapper { background-color: #EBE8DA; }
 
 .map {
     background-image: url(%=static=%/general/map.png);
     height: 1259px;
     width: 1316px;
-    background-color: #EBE8DA;
     margin:0 auto;
+    position: relative;
 }
 
 .map-tree {
+    cursor: pointer;
     position:relative;
     height: 23px;
     width: 23px;
+
+    &_absolute {
+        position: absolute;
+    }
+
+    &_disabled {
+
+    }
 }
+

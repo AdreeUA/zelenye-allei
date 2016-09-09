@@ -1,3 +1,157 @@
 .footer {
+    &__block {
+        position: relative;
+        min-height: 460px;
+        background: url(%=static=%/content/bg-footer.jpg);
+        background-repeat: no-repeat;
+    }
+
+    &__form-wrap {
+        width: 486px;
+        margin: 0 auto;
+        padding-top: 46px;
+    }
+
+    &__form {
+        color: #fff;
+    }
+
+    &__form-title {
+        margin-bottom: 16px;
+        font-family: $main-font;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__form-line {
+        margin-bottom: 28px;
+        font-size: 0;
+
+        &_button {
+            margin-top: -10px;
+            margin-bottom: 0;
+        }
+
+        .footer__input-block:first-child {
+            margin-right: 14px;
+        }
+    }
+
+    &__input-block {
+        display: inline-block;
+        vertical-align: top;
+        min-height: 65px;
+
+        input {
+            padding: 0 10px;
+            height: 36px;
+            width: 100%;
+            font-size: 18px;
+            font-family: $main-font;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background: transparent;
+            outline: none;
+        }
+
+        &_name {
+            width: 330px;
+        }
+        &_corpus {
+            width: 113px;
+        }
+        &_place-number {
+            width: 272px;
+        }
+        &_tel {
+            width: 174px;
+        }
+    }
+
+    &__label {
+        display: inline-block;
+        margin-bottom: 5px;
+        font-family: $main-font;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    &__radio-wrap {
+        border: 1px solid #fff;
+        border-radius: 5px;
+        overflow: hidden;
+
+        input[type="radio"]:checked + .footer__radio-label {
+            background: rgba(0,0,0,.4);
+        }
+    }
+
+    &__radio-label {
+        cursor: pointer;
+        float: left;
+        margin-bottom: 0;
+        padding: 6px 13px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    &__radio-label[for="corpus2"] {
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+    }
+
+    &__btn-wrap {
+        text-align: center;
+        button {
+            padding: 8px 16px;
+            color: #3b2f34;
+            font-family: $main-font;
+            font-size: 20px;
+            background: #fff;
+            border: 1px solid #fff;
+            border-radius: 5px;
+        }
+    }
+
+    &__text-required {
+        font-size: 16px;
+        font-family: $main-font;
+        text-align: center;
+    }
+
+    &__bottom {
+        position: absolute;
+        bottom: 0;
+        min-height: 65px;
+        width: 100%;
+        background: #363537;
+    }
+
+    &__bottom-wrap {
+        display: flex;
+        max-width: 100%;
+        min-height: 65px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__bottom-block {
+        font-family: $main-font;
+        font-size: 16px;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    &__link-tel {
+        text-decoration: none;
+    }
 
 }

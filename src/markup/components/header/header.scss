@@ -1,3 +1,31 @@
 .header {
+    &__block {
+        min-height: 795px;
+        background: url(%=static=%/content/bg-header.jpg);
+    }
+    &__top {
+        background: rgba(255, 255, 255, .7);
+    }
+
+    &__logo-block {
+        font-size: 0;
+        float: left;
+    }
+    &__logo {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    &__block-right {
+        float: right;
+    }
+    &__socials {
+        display: inline-block;
+    }
+    &__tel {
+        display: inline-block;
+    }
+
 
 }
+
+

@@ -39,9 +39,30 @@
     }
     &__socials {
         display: inline-block;
+        vertical-align: middle;
+        padding-top: 10px;
+    }
+    &__soc-link {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 45px;
+    }
+    &__soc-svg_vk {
+        width: 40px;
+        height: 30px;
+    }
+    &__soc-svg_fb {
+        width: 24px;
+        height: 32px;
+    }
+    &__soc-svg_tw {
+        width: 34px;
+        height: 26px;
     }
     &__tel {
         display: inline-block;
+        vertical-align: middle;
+        margin-left: 45px;
         color: #3e3236;
         font-family: $main-font;
         text-align: right;

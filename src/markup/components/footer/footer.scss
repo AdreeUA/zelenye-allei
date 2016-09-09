@@ -165,4 +165,51 @@
     position: relative;
 }
 
+.popup {
+    font-family: $main-font;
+    color: #3b2f34;
+    font-size: 20px;
+
+    &__title {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &__list-title {
+        margin-bottom: 15px;
+    }
+
+    &__list-item {
+        position: relative;
+        padding-left: 30px;
+        padding-bottom: 5px;
+
+        .icons {
+            position: absolute;
+            left: 0;
+            top: 5px;
+        }
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    &__time {
+        margin: 10px -30px;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        padding: 20px 0;
+        color: #fff;
+        background: #a4b95b;
+    }
+    &__bottom-text {
+        color: #757575;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+}
+
 

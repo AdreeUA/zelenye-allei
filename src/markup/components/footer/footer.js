@@ -19,7 +19,7 @@ $('.cond-popup').magnificPopup({
 var
     $trees = $('.map-tree'),
     $placeInput = $('#place-number'),
-    $map = $('.map'),
+    $map = $('.map, .map2'),
     $mapPopup = $('.j-map-popup'),
     $mapPopupText = $('.map-popup__header'),
     $mapBtn = $('.j-map-btn'),
@@ -79,10 +79,14 @@ $mapTabs.find('a').click(function(e) {
         $this = $(this),
         link = $this.attr('href');
 
-    $this.addClass('active').siblings().removeClass('active');
-    $mapPopup.hide();
-    $('.map, .map2').hide();
-    $(link).fadeIn();
+    if ( !$this.hasClass('active') ) {
+
+        $this.addClass('active').siblings().removeClass('active');
+        $mapPopup.hide();
+        $('.map, .map2').hide();
+        $(link).fadeIn();
+
+    }
 
     e.preventDefault();
 

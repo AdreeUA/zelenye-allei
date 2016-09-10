@@ -8,7 +8,7 @@
     &_thuja {
         @include bg($thuja);
     }
-    &_thujagrey {
+    .map-tree_disabled &_thuja {
         @include bg($thujagrey);
     }
 

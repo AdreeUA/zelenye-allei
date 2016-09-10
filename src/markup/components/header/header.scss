@@ -1,4 +1,9 @@
 .header {
+
+    background: #ffffff;
+    position: relative;
+    z-index: 6;
+
     &__block {
         min-height: 795px;
         background: url(%=static=%/content/bg-header.jpg) no-repeat;

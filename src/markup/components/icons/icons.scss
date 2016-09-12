@@ -3,6 +3,9 @@
     &_maple {
         @include bg($maple);
     }
+    .map-tree_disabled &_maple {
+        @include bg($thujagrey);
+    }
 
 
     &_thuja {
@@ -15,35 +18,35 @@
     &_chestnut {
         @include bg($chestnut);
     }
-    &_chestnutgrey {
+    .map-tree_disabled &_chestnut {
         @include bg($chestnutgrey);
     }
 
     &_rowan {
         @include bg($rowan);
     }
-    &_rowangrey {
+    .map-tree_disabled &_rowan {
         @include bg($rowangrey);
     }
 
     &_sugar {
         @include bg($sugar);
     }
-    &_sugargrey {
+    .map-tree_disabled &_sugar {
         @include bg($sugargrey);
     }
 
     &_linden {
         @include bg($linden);
     }
-    &_lindengrey {
+    .map-tree_disabled &_linden {
         @include bg($lindengrey);
     }
 
     &_spruce {
         @include bg($spruce);
     }
-    &_sprucegrey {
+    .map-tree_disabled &_spruce {
         @include bg($sprucegrey);
     }
     &_list-style-icon {

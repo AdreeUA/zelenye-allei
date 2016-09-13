@@ -1537,6 +1537,15 @@ img.mfp-img {
   background-repeat: no-repeat;
 }
 
+.map-tree_disabled .icons_maple {
+  background-image: url(../img/png-sprite/96dpi/sprite.png);
+  background-position: 0px 0px;
+  width: 26px;
+  height: 23px;
+  background-size: 107px, 104px;
+  background-repeat: no-repeat;
+}
+
 .icons_thuja {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
   background-position: -57px 0px;
@@ -1564,7 +1573,7 @@ img.mfp-img {
   background-repeat: no-repeat;
 }
 
-.icons_chestnutgrey {
+.map-tree_disabled .icons_chestnut {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
   background-position: -27px -54px;
   width: 23px;
@@ -1582,7 +1591,7 @@ img.mfp-img {
   background-repeat: no-repeat;
 }
 
-.icons_rowangrey {
+.map-tree_disabled .icons_rowan {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
   background-position: 0px -81px;
   width: 23px;
@@ -1600,7 +1609,7 @@ img.mfp-img {
   background-repeat: no-repeat;
 }
 
-.icons_sugargrey {
+.map-tree_disabled .icons_sugar {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
   background-position: -84px -54px;
   width: 23px;
@@ -1618,7 +1627,7 @@ img.mfp-img {
   background-repeat: no-repeat;
 }
 
-.icons_lindengrey {
+.map-tree_disabled .icons_linden {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
   background-position: -27px -27px;
   width: 23px;
@@ -1636,7 +1645,7 @@ img.mfp-img {
   background-repeat: no-repeat;
 }
 
-.icons_sprucegrey {
+.map-tree_disabled .icons_spruce {
   background-image: url(../img/png-sprite/96dpi/sprite.png);
   background-position: -84px 0px;
   width: 23px;

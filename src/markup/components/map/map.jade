@@ -2,6 +2,9 @@ include ../map-popup/map-popup
 
 mixin map(data)
     +b.map()&attributes(attributes)
+        +e.controlers
+            +e.BUTTON.controler_minus.js-map-minus
+            +e.BUTTON.controler_plus.js-map-plus
         +e.inner
 
             each item, num in data
@@ -15,4 +18,4 @@ mixin map(data)
                         class= item.mod || '')
                     +e.num(class=item.text)= num+1
 
-            +map-popup
+    //+map-popup

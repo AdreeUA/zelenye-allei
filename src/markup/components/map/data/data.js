@@ -1,16 +1,16 @@
 var data = {map: {
     defaults: [
         {
-            num: 1, left: 567, top: 47, text: '_top',
+            num: 1, left: 567, top: 47, text: '_top', mod: '_disable'
         },
         {
-            num: 2, left: 543, top: 52, text: '_top'
+            num: 2, left: 543, top: 52, text: '_top', mod: '_disable'
         },
         {
-            num: 3, left: 577, top: 73, text: '_left'
+            num: 3, left: 577, top: 73, text: '_left', mod: '_disable'
         },
         {
-            num: 4, left: 571, top: 104, text: '_left'
+            num: 4, left: 571, top: 104, text: '_left', mod: '_disable'
         },
         {
             num: 5 , left: 557, top: 141, text: '_left'

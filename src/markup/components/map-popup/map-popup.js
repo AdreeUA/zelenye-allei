@@ -1,7 +1,7 @@
 (function ($) {
     $(document).ready(function () {
         var
-            $placeInput = $('#place-number'),
+            $placeInput = $('#apartment'),
             $mapBtn = $('.j-map-btn');
 
         var $icon = $('.map__icon'),
@@ -14,24 +14,27 @@
         $icon.mouseenter(function(e) {
 
             var $this = $(this),
-                $iconTitle = $this.attr('data-title'),
-                num = $this.attr('data-num');
+                $iconTitle = $this.attr('data-title');
 
-            if ( $(this).hasClass('map__icon_disabled') ) {
+            num = $this.attr('data-num');
+
+            if ( $(this).hasClass('map__icon_disable') ) {
                 return;
             }
 
-            console.log($mapPopup.width());
 
             $mapNum.html(num);
             $mapPopupText.html($iconTitle);
-            $mapPopup.css('top', $(this).position().top - $mapPopup.height()).css('left', $(this).position().left - $mapPopup.width() / 2);
+            $mapPopup.css('top', $(this).offset().top - $mapPopup.height()).css('left', $(this).offset().left - $mapPopup.width() / 2);
             $mapPopup.show();
 
         });
 
-        $map.mouseleave(function(e) {
+        $('.map__inner').mousedown(function (e) {
             $mapPopup.hide();
+        });
+        $map.mouseleave(function(e) {
+            // $mapPopup.hide();
         });
 
         $mapBtn.click(function() {

@@ -7,9 +7,60 @@ $icon-size: 20;
     height: rem(797);
     margin: 0 auto;
 
+    &__controlers {
+        position: absolute;
+        left: 0;
+        top: rem(70);
+        z-index: 2;
+
+        font-size: 0;
+        
+        background-color: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px 0 0 5px;
+    }
+
+    &__controler {
+        position: relative;
+
+        width: rem(64);
+        height: rem(50);
+        border: 1px solid #e8e4da;
+        padding: 0;
+
+        background: transparent;
+        outline: none;
+
+        &::before,
+        &::after {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            background-color: #333;
+
+            content: '';
+        }
+
+        &::before {
+            width: rem(22);
+            height: rem(3);
+        }
+
+        &_plus {
+            border-left: none;
+
+            &::after {
+                width: rem(3);
+                height: rem(22);
+            }
+        }
+    }
 
     &__inner {
-        margin-top: rem(-48);
+        //margin-top: rem(-48);
         height: 100%;
 
         background-image: url(%=static=%content/map.png);
@@ -23,6 +74,8 @@ $icon-size: 20;
         width: rem($icon-size);
         height: rem($icon-size);
         display: block;
+
+        color: #303030;
 
         background-color: #88e117;
         border-radius: 50%;
@@ -38,13 +91,24 @@ $icon-size: 20;
         &_z-index-2 {
             z-index: 2;
         }
+
+        &_disable {
+            background-color: #b7b7b7;
+            color: #707070;
+
+            cursor: default;
+
+            &:hover {
+                background-color: #b7b7b7;
+                box-shadow: none;
+            }
+        }
     }
 
     &__num {
         padding-top: rem(2);
 
         font-size: rem(18);
-        color: #303030;
         text-align: center;
 
         &_top {

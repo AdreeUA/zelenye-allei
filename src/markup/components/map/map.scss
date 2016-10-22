@@ -1,0 +1,67 @@
+$icon-size: 20;
+
+.map {
+    position: relative;
+
+    width: rem(1092);
+    height: rem(797);
+    margin: 0 auto;
+
+
+    &__inner {
+        margin-top: rem(-48);
+        height: 100%;
+
+        background-image: url(%=static=%content/map.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+
+    &__icon {
+        position: absolute;
+
+        width: rem($icon-size);
+        height: rem($icon-size);
+        display: block;
+
+        background-color: #88e117;
+        border-radius: 50%;
+
+        cursor: pointer;
+        transition: background .3s, box-shadow .3s;
+
+        &:hover {
+            background-color: #a4e649;
+            box-shadow: 0 0 0 2px #d5f477;
+        }
+
+        &_z-index-2 {
+            z-index: 2;
+        }
+    }
+
+    &__num {
+        padding-top: rem(2);
+
+        font-size: rem(18);
+        color: #303030;
+        text-align: center;
+
+        &_top {
+            margin-top: rem(-$icon-size);
+        }
+
+        &_right {
+            margin-right: rem(-$icon-size - 19);
+        }
+
+        &_bottom {
+            margin-top: rem($icon-size);
+        }
+
+        &_left {
+            margin-left: rem(-$icon-size - 20);
+
+        }
+    }
+}

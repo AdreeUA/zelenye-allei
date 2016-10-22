@@ -1,3 +1,6 @@
+include ../social/social
+include ../steps/steps
+
 mixin header(data)
     +b.header()&attributes(attributes)
         block
@@ -6,55 +9,29 @@ mixin header(data)
                 +e.top
                     .container
                         +e.logo-block
+                            +e.A(href="http://www.gk-mic.ru/" target="_blank").logo
+                                img(src="%=static=%img/content/logo-mitc.png")
                             +e.A(href="/").logo
-                                img(src="static/img/content/main-logo.png")
-                            +e.A(href="http://www.gk-mic.ru/" target="blank").logo_bg-red
-                                img(src="static/img/content/mic-logo.jpg")
+                                img(src="%=static=%img/content/logo-park.png")
 
                         +e.block-right
-                            +e.socials
-                                +e.A.soc-link(href="#")
-                                    != jadeHelpers.Icon.call(locals, {iconName: 'vk', className: 'header__soc-svg_vk'})
-                                +e.A.soc-link(href="#")
-                                    != jadeHelpers.Icon.call(locals, {iconName: 'fb', className: 'header__soc-svg_fb'})
-                                +e.A.soc-link(href="#")
-                                    != jadeHelpers.Icon.call(locals, {iconName: 'tw', className: 'header__soc-svg_tw'})
-
                             +e.tel
-                                +e.DIV.tel-text Вопросы по акции:
                                 +e.A.tel-link(href="tel:+7495795-04-04") +7 (495) 795-04-04
+                                +e.DIV.tel-text Вопросы по акции:
+
+                            +social.__socials
 
                 +e.main
                     .container
-                        +e.steps-wrap
-                            +e.steps-title
-                                +e.steps-title-part1 СВОЙ ДОМ,
-                                +e.steps-title-part2 СВОЕ ДЕРЕВО
+                        +e.action-wrap
+                            +e.A.action-link(href='#conditions').cond-popup Условия акции
 
-                            +e.steps-content
-                                +e.content-wrap
-                                    +e.steps-img-wrap
-                                        +e.IMG.steps-img(src="static/img/content/steps-img.png")
+                        +e.title-wrap
+                            +e.subtitle Примите участие в акции
+                            +e.H1.title СВОЙ ДОМ -
+                                +e.title_sub своё дерево
 
-                                    +e.steps-text-wrap
-                                        +e.steps-block
-                                            +e.steps-block-title Шаг 1:
-                                            +e.steps-block-text Забронируйте место посадки
+                    +steps.__steps
 
-                                        +e.steps-block
-                                            +e.steps-block-title Шаг 2:
-                                            +e.steps-block-text Заполните заявку на участие в акции
-
-                                        +e.steps-block
-                                            +e.steps-block-title Шаг 3:
-                                            +e.steps-block-text Дождитесь звонка нашего сотрудника
-
-                                        +e.steps-block
-                                            +e.steps-block-title Шаг 4:
-                                            +e.steps-block-text Прийти 17 сентября на посадку<br> вашего фамильного дерева
-
-                                    +e.steps-btn
-                                        +e.A.steps-link(href='#conditions').cond-popup
-                                            +e.IMG.steps-link-img(src="static/img/content/steps-button.jpg")
 
 

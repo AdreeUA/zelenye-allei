@@ -1,0 +1,18 @@
+include ../map-popup/map-popup
+
+mixin map(data)
+    +b.map()&attributes(attributes)
+        +e.inner
+
+            each item, num in data
+
+                - var leftRem = (item.left + 15) / 16;
+                - var topRem = (item.top + 28) / 16;
+
+                +e.icon(data-num=num+1
+                        style='left: #{leftRem}rem ; top: #{topRem}rem;'
+                        data-title= item.title || 'Калина'
+                        class= item.mod || '')
+                    +e.num(class=item.text)= num+1
+
+            +map-popup

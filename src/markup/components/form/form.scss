@@ -1,0 +1,99 @@
+.form {
+    width: rem(535);
+    margin: 0 auto;
+    padding: rem(39) 0 rem(35);
+
+    font-size: rem(16);
+    color: #fff;
+
+    &__title {
+        margin-bottom: rem(43);
+
+        font-size: rem(48);
+        font-family: $font-2;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__row {
+        display: flex;
+        margin-bottom: rem(24);
+    }
+
+    &__input-wrap {
+        position: relative;
+
+        flex: 1 1 auto;
+
+        &:not(:first-child) {
+            margin-left: rem(18);
+        }
+
+        &_name {
+            width: rem(333);
+        }
+
+        &_small {
+            width: rem(81);
+        }
+
+        &_number {
+            width: rem(221);
+        }
+    }
+
+    &__label {
+        margin-bottom: rem(11);
+        display: block;
+
+        text-transform: uppercase;
+    }
+
+    &__input {
+        padding: rem(14) rem(18) rem(16);
+        border: 1px solid #e4d9c6;
+        width: 100%;
+
+        background: transparent;
+        outline: none;
+    }
+
+    &__footer {
+        text-align: center;
+    }
+
+    &__btn {
+        display: inline-block;
+        margin: 0 auto rem(13);
+        padding: rem(12) rem(20);
+        border: none;
+
+        font-size: rem(24);
+        font-family: $font-2;
+        color: #333;
+
+        background-color: #fff;
+
+        vertical-align: top;
+        transition: background .3s;
+
+        &:hover {
+            background-color: #e2ebd6;
+        }
+    }
+
+    &__required {
+        display: block;
+        color: #e4dbc9;
+    }
+
+    label.error {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        white-space: nowrap;
+    }
+}

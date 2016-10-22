@@ -1,0 +1,113 @@
+
+.popup {
+    position: relative;
+
+    max-width: rem(1132);
+    padding: rem(68);
+    margin: rem(50) auto;
+    border: rem(17) solid #6d8f45;
+
+    font-size: rem(22);
+    font-family: $font-2;
+    color: #3b2f34;
+
+    background-color: #eee9cc;
+
+
+    &__title {
+        margin-bottom: rem(29);
+
+        font-size: rem(48);
+    }
+
+    &__subtitle {
+        margin: 0 0 rem(38);
+
+        font-size: rem(30);
+        text-transform: uppercase;
+    }
+
+    &__text {
+        margin: 0 0 rem(38);
+    }
+
+    &__list {
+        @include list-reset;
+
+        padding-bottom: rem(40);
+    }
+
+    &__list-title {
+        margin-bottom: rem(15);
+    }
+
+    &__list-item {
+        margin-bottom: rem(17);
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    &__icon {
+        width: rem(12);
+        height: rem(17);
+        margin-right: rem(17);
+    }
+
+    &__time {
+        display: block;
+        padding: rem(18) 0;
+        margin: 0 rem(-68) rem(33);
+
+        text-align: center;
+        font-size: rem(30);
+        color: #fff;
+
+        background: #a4b95b;
+    }
+    &__bottom-text {
+        margin: 0;
+
+        color: #757575;
+        font-size: rem(18);
+    }
+
+    button.mfp-close {
+        top: rem(-40);
+        right: rem(-40);
+
+        width: rem(75);
+        height: rem(75);
+        border: rem(12) solid #eee9cc;
+
+        transform: rotate(45deg);
+
+        font-size: 0;
+
+        border-bottom-color: transparent;
+        opacity: 1;
+        border-radius: 50%;
+
+
+        &::before {
+            height: 100%;
+            width: 100%;
+            display: block;
+
+            transform: rotate(-45deg);
+
+            background-image: url(%=static=%assets/popup/icon-close.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            content: '';
+        }
+
+        &:hover {
+            &::before {
+                background-image: url(%=static=%assets/popup/icon-close-hover.svg);
+            }
+        }
+    }
+}

@@ -12,7 +12,9 @@
     "svg4everybody": "^2.1.0"
   },
   "devDependencies": {
-    "gulp": "3.9.1"
+    "gulp": "3.9.1",
+    "jquery-validation": "^1.15.1",
+    "select2": "^4.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

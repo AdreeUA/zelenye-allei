@@ -4,81 +4,16 @@ mixin footer(data)
     +b.footer()&attributes(attributes)
         block
         .wrapper
-            +e.block
-                +e.form-block
-                    .container
-                        +e.form-wrap
-                            +e.FORM.form
-                                +e.form-title Заполни заявку
+            +e.bottom
+                .container
+                    +e.bottom-wrap
+                        +e.bottom-block
+                            span © 2015 Группа компаний «МИЦ»
 
-                                +e.form-line
-                                    +e.input-block_name
-                                        +e.LABEL.label(for="name") Фамилия Имя Отчество
-                                        input(type="text" id="name" name="name" required)
-
-                                    +e.input-block_corpus
-                                        +e.LABEL.label Корпус
-
-                                        +e.DIV.radio-wrap
-                                            input(type="radio" id="corpus1" name="corpus" value="corpus1" required checked)
-                                            +e.LABEL.radio-label(for="corpus1") 1
-
-                                            input(type="radio" id="corpus2" name="corpus" value="corpus2" required)
-                                            +e.LABEL.radio-label(for="corpus2") 2
-
-                                            input(type="radio" id="corpus4" name="corpus" value="corpus3" required)
-                                            +e.LABEL.radio-label(for="corpus4") 4
-
-                                +e.form-line
-                                    +e.input-block_place-number
-                                        +e.LABEL.label(for="place-number") Номер посадочного места
-                                        input(type="text" id="place-number" name="place-number" required)
-
-                                    +e.input-block_tel
-                                        +e.LABEL.label(for="tel") Телефон
-                                        input(type="tel" id="tel" name="tel" required)
-
-                                +e.form-line
-                                    +e.btn-wrap
-                                        +e.BUTTON(type="submit") Отправить заявку
-
-                                +e.form-line_button
-                                    +e.text-required *все поля формы обязательные к заполнению
-
-                +e.bottom
-                    .container
-                        +e.bottom-wrap
-                            +e.bottom-block
-                                span © 2016 Группа компаний «МИЦ»
-
-                            +e.bottom-block
-                                +e.A.bottom-link(href='#conditions').cond-popup Условия акции
-
-                            +e.bottom-block
-                                span Вопросы по акции:
-                                +e.A.link-tel(href="tel:+7495795-04-04") +7 (495) 795-04-04
+                        +e.bottom-block
+                            span Вопросы по акции:
+                            +e.A.link-tel(href="tel:+7495795-04-04") +7 (495) 795-04-04
 
 
 
-    #conditions.mfp-hide
-        +b.popup
-            +e.H1.title Условия Акции
-            +e.H2.subtitle Инструкция:
-            +e.P.text Принять участие в акции «Свой дом, свое дерево» могут все жители корпусов 1,2,4 первой очереди ЖК «Зеленые Аллеи».
-            +e.list
-                +e.list-title Для того чтобы стать участником акции нужно сделать следующее:
-                +e.list-item зайти на страницу(адрес лэндинга);
-                    +icons._list-style-icon
-                +e.list-item выбрать и забронировать место посадки дерева;
-                    +icons._list-style-icon
-                +e.list-item заполнить заявку на участие в акции, указав свои фамилию, имя, адрес и контактные данные;
-                    +icons._list-style-icon
-                +e.list-item дождаться звонка нашего сотрудника, который подтвердит Ваше участие в акции;
-                    +icons._list-style-icon
-                +e.list-item прийти 17 сентября на торжественную церемонию высадки фамильных деревьев;
-                    +icons._list-style-icon
-                +e.list-item <span>забронировать место посадки дерева до 15 сентября включительно!</span>
-                    +icons._list-style-icon
-            +e.time Начало праздника в 11:30 17 сентября!
-            +e.P.bottom-text (*) ГК 'МИЦ' гарантирует защиту персональных данных. Оставленные вами контакты будут использованы только для регистрации в акции, не будут доступны третьим лицам и не будут опубликованы.
 

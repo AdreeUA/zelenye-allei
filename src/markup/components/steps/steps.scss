@@ -1,0 +1,33 @@
+.steps {
+    padding-top: rem(170);
+
+    font-size: 0;
+    text-align: center;
+
+    background-image: url(%=static=%content/steps.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    //background-position-y: rem(-50);
+
+
+    &__item {
+        display: inline-block;
+        //width: 25%;
+
+        font-size: rem(20);
+        color: #ece8d8;
+
+        vertical-align: top;
+
+        &:nth-child(1) {
+            margin-right: rem(140);
+            margin-left: rem(30);
+        }
+        &:nth-child(2) {
+            margin-right: rem(130);
+        }
+        &:nth-child(3) {
+            margin-right: rem(70);
+        }
+    }
+}

@@ -2,6 +2,7 @@ include ../../node_modules/bemto.jade/bemto
 
 include ../components/header/header
 include ../components/footer/footer
+include ../components/popup/popup
 
 doctype html
 html(lang='ru')
@@ -13,5 +14,6 @@ html(lang='ru')
         block content
         
         +footer()
+        +popup
 
         script(src='%=static=%js/main%=hash=%%=min=%.js')

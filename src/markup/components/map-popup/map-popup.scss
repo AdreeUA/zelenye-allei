@@ -1,0 +1,64 @@
+.map-popup {
+    position: absolute;
+    z-index: 5;
+
+    display: none;
+    min-width: rem(203);
+    //height: 134px;
+    border: 1px solid #e8e4da;
+    margin-top: rem(-54);
+    margin-left: rem(-10);
+    padding: rem(22);
+
+    font-family: $font-2;
+    text-align: center;
+
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+
+    &:before {
+        position: absolute;
+        left: 50%;
+        top: 100%;
+
+        margin-left: rem(-10);
+        border-top: rem(10) solid #fff;
+        border-left: rem(10) solid transparent;
+        border-right: rem(10) solid transparent;
+
+        content: "";
+    }
+
+    &__header {
+        margin-bottom: rem(14);
+
+        font-size: rem(24);
+        text-transform: uppercase;
+    }
+
+    &__text {
+        margin-bottom: rem(10);
+
+        font-size: rem(16);
+    }
+
+    &__btn {
+        display: inline-block;
+        border: 1px solid #e8e4da;
+        padding: rem(13) rem(32);
+
+        text-align: center;
+
+        border-radius: 5px;
+        cursor: pointer;
+
+        transition: background .3s;
+
+        &:hover {
+            background-color: #e2ebd6;
+        }
+    }
+
+}

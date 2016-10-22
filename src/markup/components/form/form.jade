@@ -1,0 +1,45 @@
+mixin form(data)
+    +b.FORM.form()&attributes(attributes)(action='#')
+        +e.title Укажите данные о себе
+        +e.row
+            +e.input-wrap_name
+                +e.LABEL.label(for="name") Фамлилия имя отчество
+                +e.INPUT.input(name="name"
+                                id='name'
+                                required
+                )
+
+            +e.input-wrap_small
+                +e.LABEL.label(for="corps") Корпус
+                +e.SELECT.select(name='corps' id='corps')
+                    option 21
+                    option 22
+                    option 23
+
+            +e.input-wrap_small
+                +e.LABEL.label(for='apartment') квартира
+                +e.INPUT.input(name="name"
+                                id='apartment'
+                                required
+                )
+
+        +e.row
+            +e.input-wrap_number
+                +e.LABEL.label(for="number") Номер посадочного места
+                +e.INPUT.input(name="name"
+                                id='number'
+                                required
+                )
+
+            +e.input-wrap
+                +e.LABEL.label(for='phone') Телефон
+                +e.INPUT.input(name="name"
+                                id='phone'
+                                data-validate="'tel': true"
+                                required
+                )
+
+        +e.footer
+            +e.INPUT.btn(type='submit' value='отправить заявку')
+            +e.required все поля формы обязательные к заполнению
+

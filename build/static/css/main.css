@@ -1982,8 +1982,52 @@ img.mfp-img {
   margin: 0 auto;
 }
 
+.map__controlers {
+  position: absolute;
+  left: 0;
+  top: 4.375rem;
+  z-index: 2;
+  font-size: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px 0 0 5px;
+}
+
+.map__controler {
+  position: relative;
+  width: 4rem;
+  height: 3.125rem;
+  border: 1px solid #e8e4da;
+  padding: 0;
+  background: transparent;
+  outline: none;
+}
+
+.map__controler::before, .map__controler::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #333;
+  content: '';
+}
+
+.map__controler::before {
+  width: 1.375rem;
+  height: 0.1875rem;
+}
+
+.map__controler_plus {
+  border-left: none;
+}
+
+.map__controler_plus::after {
+  width: 0.1875rem;
+  height: 1.375rem;
+}
+
 .map__inner {
-  margin-top: -3rem;
   height: 100%;
   background-image: url(../img/content/map.png);
   background-size: 100% auto;
@@ -1995,6 +2039,7 @@ img.mfp-img {
   width: 1.25rem;
   height: 1.25rem;
   display: block;
+  color: #303030;
   background-color: #88e117;
   border-radius: 50%;
   cursor: pointer;
@@ -2011,10 +2056,20 @@ img.mfp-img {
   z-index: 2;
 }
 
+.map__icon_disable {
+  background-color: #b7b7b7;
+  color: #707070;
+  cursor: default;
+}
+
+.map__icon_disable:hover {
+  background-color: #b7b7b7;
+  box-shadow: none;
+}
+
 .map__num {
   padding-top: 0.125rem;
   font-size: 1.125rem;
-  color: #303030;
   text-align: center;
 }
 
@@ -2041,7 +2096,7 @@ img.mfp-img {
   min-width: 12.6875rem;
   border: 1px solid #e8e4da;
   margin-top: -3.375rem;
-  margin-left: -0.625rem;
+  margin-left: -0.75rem;
   padding: 1.375rem;
   font-family: "Pribambas-Regular", Arial, sans-serif;
   text-align: center;

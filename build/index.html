@@ -103,20 +103,26 @@
         </div>
         <div class="map-wrapper">
             <div class="map">
+                <div class="map__controlers">
+                    <button class="map__controler map__controler_minus js-map-minus">
+                    </button>
+                    <button class="map__controler map__controler_plus js-map-plus">
+                    </button>
+                </div>
                 <div class="map__inner">
-                    <div data-num='1' style="left: 36.375rem ; top: 4.6875rem;" data-title="Калина" class="map__icon">
+                    <div data-num='1' style="left: 36.375rem ; top: 4.6875rem;" data-title="Калина" class="map__icon map__icon_disable">
                         <div class="map__num map__num_top">1
                         </div>
                     </div>
-                    <div data-num='2' style="left: 34.875rem ; top: 5rem;" data-title="Калина" class="map__icon">
+                    <div data-num='2' style="left: 34.875rem ; top: 5rem;" data-title="Калина" class="map__icon map__icon_disable">
                         <div class="map__num map__num_top">2
                         </div>
                     </div>
-                    <div data-num='3' style="left: 37rem ; top: 6.3125rem;" data-title="Калина" class="map__icon">
+                    <div data-num='3' style="left: 37rem ; top: 6.3125rem;" data-title="Калина" class="map__icon map__icon_disable">
                         <div class="map__num map__num_left">3
                         </div>
                     </div>
-                    <div data-num='4' style="left: 36.625rem ; top: 8.25rem;" data-title="Калина" class="map__icon">
+                    <div data-num='4' style="left: 36.625rem ; top: 8.25rem;" data-title="Калина" class="map__icon map__icon_disable">
                         <div class="map__num map__num_left">4
                         </div>
                     </div>
@@ -484,20 +490,13 @@
                         <div class="map__num map__num_left">95
                         </div>
                     </div>
-                    <div class="map-popup j-map-popup">
-                        <div class="map-popup__header">Рябина
-                        </div>
-                        <div class="map-popup__text">Номер посадочного места:
-                            <div class="map-popup__num j-map-num">13
-                            </div>
-                        </div><span class="map-popup__btn j-map-btn">Выбрать   block</span>
-                    </div>
                 </div>
             </div>
+            <!--+map-popup-->
         </div>
         <div class="wrapper wrapper_on-form">
             <div class="container">
-                <form action="#" class="form">
+                <form class="form">
                     <div class="form__title">Укажите данные о себе
                     </div>
                     <div class="form__row">
@@ -598,6 +597,14 @@
         <p class="popup__bottom-text">(*) ГК "МИЦ" гарантирует защиту персональных данных. Оставленные вами контакты будут использованы толькодля регистрации в акции, не будут доступны третьим лицам и не будут опубликованы.
         </p>
       </h1>
+        </div>
+        <div class="map-popup j-map-popup">
+            <div class="map-popup__header">Рябина
+            </div>
+            <div class="map-popup__text">Номер посадочного места:
+                <div class="map-popup__num j-map-num">13
+                </div>
+            </div><span class="map-popup__btn j-map-btn">Выбрать</span>
         </div>
         <script src="static/js/main.min.js"></script>
     </body>

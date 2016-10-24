@@ -1,7 +1,7 @@
 (function ($) {
     $(document).ready(function () {
         var
-            $placeInput = $('#apartment'),
+            $placeInput = $('#number'),
             $mapBtn = $('.j-map-btn');
 
         var $icon = $('.map__icon'),

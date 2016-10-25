@@ -393,9 +393,9 @@ blockquote {
 /* Mixins and vars for sprite generation */
 /* Scss for used fonts */
 @font-face {
-  font-family: "ropasans-regular-webfont";
+  font-family: "ropasanspro-regular-webfont";
   font-weight: 400;
-  src: url("../fonts/ropa/ropasans-regular-webfont.woff") format("woff"), url("../fonts/ropa/ropasans-regular-webfont.woff2") format("woff2"), url("../fonts/ropa/ropasans-regular-webfont.ttf") format("truetype"), url("../fonts/ropa/ropasans-regular-webfont.svg#ropasans-regular-webfont") format("svg"), url("../fonts/ropa/ropasans-regular-webfont.eot?") format("eot");
+  src: url("../fonts/ropa/ropasanspro-regular-webfont.woff") format("woff"), url("../fonts/ropa/ropasanspro-regular-webfont.woff2") format("woff2"), url("../fonts/ropa/ropasanspro-regular-webfont.ttf") format("truetype"), url("../fonts/ropa/ropasanspro-regular-webfont.svg#ropasanspro-regular-webfont") format("svg"), url("../fonts/ropa/ropasanspro-regular-webfont.eot?") format("eot");
 }
 
 @font-face {
@@ -422,7 +422,7 @@ blockquote {
 html, body {
   height: 100%;
   font-size: 0.84211vw;
-  font-family: "ropasans-regular-webfont", Arial, sans-serif;
+  font-family: "ropasanspro-regular-webfont", Arial, sans-serif;
 }
 
 @media screen and (min-width: 1900px) {
@@ -1993,16 +1993,16 @@ img.mfp-img {
 }
 
 .steps__item:nth-child(1) {
-  margin-right: 8.75rem;
-  margin-left: 1.875rem;
+  margin-right: 10rem;
+  margin-left: 1.25rem;
 }
 
 .steps__item:nth-child(2) {
-  margin-right: 8.125rem;
+  margin-right: 10rem;
 }
 
 .steps__item:nth-child(3) {
-  margin-right: 4.375rem;
+  margin-right: 5.625rem;
 }
 
 .map {

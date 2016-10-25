@@ -1,5 +1,6 @@
 
-@include font-face('ropasans-regular-webfont', '../fonts/ropa/ropasans-regular-webfont', 400, $exts: woff woff2 ttf svg eot);
+@include font-face('ropasanspro-regular-webfont', '../fonts/ropa/ropasanspro-regular-webfont', 400, $exts: woff woff2 ttf svg eot);
+//@include font-face('RopaSansPro-Regular', '../fonts/RopaSansPro-Regular', 400, $exts: otf);
 @include font-face('Pribambas-Regular', '../fonts/pribambas/Pribambas-Regular', 400, $exts: woff woff2 eot);
 @include font-face('roboto-regular-webfont', '../fonts/roboto/roboto-regular-webfont', 400, $exts: woff woff2 eot svg ttf);
 

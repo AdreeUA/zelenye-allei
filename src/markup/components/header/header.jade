@@ -7,7 +7,7 @@ mixin header(data)
         .wrapper
             +e.block
                 +e.top
-                    .container
+                    +e.container.container
                         +e.logo-block
                             +e.A(href="http://www.gk-mic.ru/" target="_blank").logo
                                 img(src="%=static=%img/content/logo-mitc.png")

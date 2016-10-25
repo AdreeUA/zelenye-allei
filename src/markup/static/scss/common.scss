@@ -15,6 +15,11 @@ html, body {
     @include above(1900px) {
         font-size: 16px;
     }
+
+    @include below(1200px) {
+        font-size: 10px;
+        overflow-x: auto;
+    }
 }
 
 body {

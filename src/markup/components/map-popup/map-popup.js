@@ -30,9 +30,6 @@
 
         });
 
-        $('.map__inner').mousedown(function (e) {
-            $mapPopup.hide();
-        });
         $map.mouseleave(function(e) {
             // $mapPopup.hide();
         });

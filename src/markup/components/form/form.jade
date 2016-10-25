@@ -18,7 +18,7 @@ mixin form(data)
 
             +e.input-wrap_small
                 +e.LABEL.label(for='apartment') квартира
-                +e.INPUT.input(name="name"
+                +e.INPUT.input(name="apartment"
                                 id='apartment'
                                 required
                 )
@@ -26,16 +26,16 @@ mixin form(data)
         +e.row
             +e.input-wrap_number
                 +e.LABEL.label(for="number") Номер посадочного места
-                +e.INPUT.input(name="name"
+                +e.INPUT.input(name="number"
                                 id='number'
                                 required
                 )
 
             +e.input-wrap
                 +e.LABEL.label(for='phone') Телефон
-                +e.INPUT.input(name="name"
+                +e.INPUT.input(name="phone"
                                 id='phone'
-                                data-validate="'tel': true"
+                                data-validate='"tel": true'
                                 required
                 )
 

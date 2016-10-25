@@ -25,7 +25,7 @@
             <div class="wrapper">
                 <div class="header__block">
                     <div class="header__top">
-                        <div class="container">
+                        <div class="header__container container">
                             <div class="header__logo-block">
                                 <a href="http://www.gk-mic.ru/" target="_blank" class="header__logo">
                                     <img src="static/img/content/logo-mitc.png" />
@@ -103,12 +103,9 @@
         </div>
         <div class="map-wrapper">
             <div class="map">
-                <div class="map__controlers">
-                    <button class="map__controler map__controler_minus js-map-minus">
-                    </button>
-                    <button class="map__controler map__controler_plus js-map-plus">
-                    </button>
-                </div>
+                <!--+e.controlers-->
+                <!--    +e.BUTTON.controler_minus.js-map-minus-->
+                <!--    +e.BUTTON.controler_plus.js-map-plus-->
                 <div class="map__inner">
                     <div data-num='1' style="left: 36.375rem ; top: 4.6875rem;" data-title="Калина" class="map__icon map__icon_disable">
                         <div class="map__num map__num_top">1
@@ -491,8 +488,8 @@
                         </div>
                     </div>
                 </div>
+                <!--+map-popup-->
             </div>
-            <!--+map-popup-->
         </div>
         <div class="wrapper wrapper_on-form">
             <div class="container">
@@ -517,19 +514,19 @@
                         <div class="form__input-wrap form__input-wrap_small">
                             <label for="apartment" class="form__label">квартира
                             </label>
-                            <input name="name" id="apartment" required="required" class="form__input" type="text" />
+                            <input name="apartment" id="apartment" required="required" class="form__input" type="text" />
                         </div>
                     </div>
                     <div class="form__row">
                         <div class="form__input-wrap form__input-wrap_number">
                             <label for="number" class="form__label">Номер посадочного места
                             </label>
-                            <input name="name" id="number" required="required" class="form__input" type="text" />
+                            <input name="number" id="number" required="required" class="form__input" type="text" />
                         </div>
                         <div class="form__input-wrap">
                             <label for="phone" class="form__label">Телефон
                             </label>
-                            <input name="name" id="phone" data-validate="'tel': true" required="required" class="form__input" type="text" />
+                            <input name="phone" id="phone" data-validate="&amp;quot;tel&amp;quot;: true" required="required" class="form__input" type="text" />
                         </div>
                     </div>
                     <div class="form__footer">

@@ -1674,9 +1674,7 @@ img.mfp-img {
 
 .header__block-right {
   padding-top: 0.9375rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  margin-left: auto;
 }
 
 .header__socials {
